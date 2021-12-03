@@ -1,0 +1,52 @@
+@font-face {
+    font-family: "graphic-psyco";
+    src: url(../asset/fonts/graphicpstco.ttf)!important;
+}
+* {
+    text-decoration: none;
+    list-style-type: none;
+    font-family: 'Titillium Web', sans-serif;
+}
+$negro:black;
+$padd:20px;
+$blanco:white;
+$padTxt:20px;
+$fontNav:20px;
+  
+.bgNegro{
+    background-color:$negro!important;
+}
+.colorFuente {
+    color:$blanco;
+}
+
+@media only screen and (min-width: 1024px) {
+    .espacioNav{
+        padding-left: 600px!important;
+    }
+    .disFlex{
+        display: flex;
+        justify-content: center;
+    }
+    .navSize{
+        font-size:$fontNav;
+    }
+    .fontSize{
+        font-size: 25px;
+    }
+    .paddingTxt {
+        padding-left:$padTxt;
+        padding-right:$padTxt;
+    }
+    .disImg {
+        padding-top:$padTxt;
+    }
+    
+    div p a{
+        color:$negro;
+        &:hover{
+            background-color:$negro;
+            color:$blanco;
+        }
+    }
+}

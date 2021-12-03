@@ -1,0 +1,65 @@
+@font-face {
+  font-family: "graphic-psyco";
+  src: url(../asset/fonts/graphicpstco.ttf) !important; }
+
+* {
+  text-decoration: none;
+  list-style-type: none;
+  font-family: 'Titillium Web', sans-serif; }
+
+.bgNegro {
+  background-color: black !important; }
+
+.colorFuente {
+  color: white; }
+
+@media only screen and (min-width: 1024px) {
+  .espacioNav {
+    padding-left: 600px !important; }
+  .disFlex {
+    display: flex;
+    justify-content: center; }
+  .navSize {
+    font-size: 20px; }
+  .fontSize {
+    font-size: 25px; }
+  .paddingTxt {
+    padding-left: 20px;
+    padding-right: 20px; }
+  .disImg {
+    padding-top: 20px; }
+  div p a {
+    color: black; }
+    div p a:hover {
+      background-color: black;
+      color: white; } }
+
+@font-face {
+  font-family: "graphic-psyco";
+  src: url(../asset/fonts/graphicpstco.ttf) !important; }
+
+* {
+  text-decoration: none;
+  list-style-type: none;
+  font-family: 'Titillium Web', sans-serif; }
+
+.bgNegro {
+  background-color: black !important; }
+
+.colorFuente {
+  color: white; }
+
+@media only screen and (min-width: 0px) and (max-width: 768px) {
+  .widthFooter {
+    width: 50%; }
+  .fontSizeXs {
+    font-size: 20px; }
+  .disFlexXs {
+    display: flex;
+    justify-content: center; }
+  .paddingB {
+    padding-bottom: 10px; }
+  .paddingBot {
+    padding-bottom: 20px; }
+  .padLy {
+    padding-left: 0px !important; } }

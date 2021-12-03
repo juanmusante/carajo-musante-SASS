@@ -1,0 +1,44 @@
+@font-face {
+    font-family: "graphic-psyco";
+    src: url(../asset/fonts/graphicpstco.ttf)!important;
+}
+* {
+    text-decoration: none;
+    list-style-type: none;
+    font-family: 'Titillium Web', sans-serif;
+}
+
+$negro:black;
+$padd:20px;
+$blanco:white;
+$padTxt:20px;
+
+.bgNegro{
+    background-color:$negro!important;
+}
+.colorFuente {
+    color:$blanco;
+}
+
+@media only screen and (min-width: 0px) and (max-width: 768px) {
+    .widthFooter {
+        width: 50%;
+    } 
+    .fontSizeXs {
+        font-size:$padd;
+    }
+    .disFlexXs {
+        display: flex;
+        justify-content: center;
+    } 
+    .paddingB {
+        padding-bottom: 10px;
+    }
+    .paddingBot {
+        padding-bottom:$padd;
+    }
+    .padLy {
+        padding-left: 0px!important;
+    }
+}
+
