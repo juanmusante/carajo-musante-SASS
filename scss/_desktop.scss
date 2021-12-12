@@ -20,19 +20,30 @@ $fontNav:20px;
     color:$blanco;
 }
 
+$historia: (
+    izquierda: left,
+    tFuente: 25px,
+    fColor: $blanco,
+);
+@mixin flex--center {
+    display: flex;
+    justify-content: center;
+}
+
 @media only screen and (min-width: 1024px) {
     .espacioNav{
         padding-left: 600px!important;
     }
     .disFlex{
-        display: flex;
-        justify-content: center;
+        @include flex--center;
     }
     .navSize{
         font-size:$fontNav;
     }
-    .fontSize{
-        font-size: 25px;
+    .historiaMapa{
+        text-align: map-get($map: $historia, $key: izquierda );
+        font-size: map-get($map: $historia, $key: tFuente );
+        color: map-get($map: $historia, $key: fColor);
     }
     .paddingTxt {
         padding-left:$padTxt;
@@ -41,7 +52,22 @@ $fontNav:20px;
     .disImg {
         padding-top:$padTxt;
     }
-    
+    .boton {
+        background-color: $blanco;
+        text-align: center;
+        color: $negro;
+        border-radius: 20px;
+    }
+    .boton--enviar {
+        @extend .boton;
+        width: 80px;
+        height: 35px;
+    }
+    .boton--restablecer {
+        @extend .boton;
+        width: 120px;
+        height: 35px;
+    }
     div p a{
         color:$negro;
         &:hover{

@@ -21,13 +21,26 @@
     justify-content: center; }
   .navSize {
     font-size: 20px; }
-  .fontSize {
-    font-size: 25px; }
+  .historiaMapa {
+    text-align: left;
+    font-size: 25px;
+    color: white; }
   .paddingTxt {
     padding-left: 20px;
     padding-right: 20px; }
   .disImg {
     padding-top: 20px; }
+  .boton, .boton--enviar, .boton--restablecer {
+    background-color: white;
+    text-align: center;
+    color: black;
+    border-radius: 20px; }
+  .boton--enviar {
+    width: 80px;
+    height: 35px; }
+  .boton--restablecer {
+    width: 120px;
+    height: 35px; }
   div p a {
     color: black; }
     div p a:hover {
@@ -62,4 +75,15 @@
   .paddingBot {
     padding-bottom: 20px; }
   .padLy {
-    padding-left: 0px !important; } }
+    padding-left: 0px !important; }
+  .botonMobile, .boton--enviar, .boton--restablecer {
+    background-color: white;
+    text-align: center;
+    color: black;
+    border-radius: 20px; }
+  .boton--enviar {
+    width: 80px;
+    height: 35px; }
+  .boton--restablecer {
+    width: 100px;
+    height: 35px; } }
