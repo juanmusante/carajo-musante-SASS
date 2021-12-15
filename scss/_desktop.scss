@@ -12,6 +12,7 @@ $padd:20px;
 $blanco:white;
 $padTxt:20px;
 $fontNav:20px;
+$padVid:5px;
   
 .bgNegro{
     background-color:$negro!important;
@@ -75,4 +76,26 @@ $historia: (
             color:$blanco;
         }
     }
+    .gridIndex {
+        display: grid;
+        grid-template-areas:
+        "section";
+        grid-template-columns: auto;
+        grid-template-rows: auto;
+    }
+    section {
+        grid-area: section;
+        background-color: $negro;
+    }
+    .anchoVideoDsk {
+        width: 49%;
+    }
+    .anchoImg {
+        width: 700px;
+        margin: 1px;
+    }
+    .padVid {
+        padding-right: $padVid;
+    }
+
 }

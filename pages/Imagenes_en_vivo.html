@@ -41,35 +41,19 @@
             </div>
         </nav>
       </div>
-    <main class="bgNegro pb-4">
-        <nav class="pt-3">
-          <div class="row">
-            <p class="d-flex justify-content-center fontSize colorFuente col-12">FOTOS</p>
-          </div>
-          <div class="row p-2">
-            <img src="../asset/img/carajovivo1.jpg" alt="CarajoLIVE1" class="col-lg-6 col-xs-12 paddingB">
-            <img src="../asset/img/carajovivo2.jpg" alt="CarajoLIVE2" class="col-lg-6 col-xs-12">
-          </div>
-          <div class="row p-2">
-            <img src="../asset/img/carajopvivo3.jpg" alt="CarajoLIVE3" class="col-lg-6 col-xs-12 paddingB">
-            <img src="../asset/img/carajovivo4.jpg" alt="CarajoLIVE4" class="col-lg-6 col-xs-12">
-          </div>
-          <div class="row p-2">
-            <img src="../asset/img/carajovivo5.jpg" alt="CarajoLIVE5" class="col-lg-6 col-xs-12 paddingB">
-            <img src="../asset/img/carajovivo6.jpg" alt="carajovivo6" class="col-lg-6 col-xs-12">
-          </div>   
-          <div>
-            <p class="d-flex justify-content-center fontSize colorFuente col-12 pt-4">VIDEOS</p>
-          </div>
-          <div class="row">
-            <iframe height="415" src="https://www.youtube.com/embed/0kmPchKGfxE" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen class="col-lg-6"></iframe>
-            <iframe height="415" src="https://www.youtube.com/embed/dsisD60-MXI" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen class="col-lg-6"></iframe>
-          </div>
-          <div class="row">
-            <iframe height="415" src="https://www.youtube.com/embed/Vgjln9mQZco" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen class="col-lg-6"></iframe>
-            <iframe height="415" src="https://www.youtube.com/embed/hZmwmdOBKMs" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen class="col-lg-6"></iframe>
-          </div>
-        </nav>
+      <main class="gridIndex">
+        <section>
+          <img src="../asset/img/carajovivo1.jpg" alt="CarajoLIVE1" class="anchoImg anchoImgMob">
+          <img src="../asset/img/carajovivo2.jpg" alt="CarajoLIVE2" class="anchoImg anchoImgMob">
+          <img src="../asset/img/carajopvivo3.jpg" alt="CarajoLIVE3" class="anchoImg anchoImgMob">
+          <img src="../asset/img/carajovivo4.jpg" alt="CarajoLIVE4" class="anchoImg anchoImgMob">
+          <img src="../asset/img/carajovivo5.jpg" alt="CarajoLIVE5" class="anchoImg anchoImgMob">
+          <img src="../asset/img/carajovivo6.jpg" alt="carajovivo6" class="anchoImg anchoImgMob">
+          <iframe height="415" src="https://www.youtube.com/embed/0kmPchKGfxE" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen class="anchoVideoDsk anchoVideoMob padVid"></iframe>
+          <iframe height="415" src="https://www.youtube.com/embed/dsisD60-MXI" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen class="anchoVideoDsk anchoVideoMob"></iframe>
+          <iframe height="415" src="https://www.youtube.com/embed/Vgjln9mQZco" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen class="anchoVideoDsk anchoVideoMob padVid"></iframe>
+          <iframe height="415" src="https://www.youtube.com/embed/hZmwmdOBKMs" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen class="anchoVideoDsk anchoVideoMob"></iframe>
+      </section>
     </main>
     <footer class="row">
       <div class="col-lg-4 col-xs-12 pt-3">
@@ -86,6 +70,13 @@
       </div>
   </footer>
     <script src="https://cdn.jsdelivr.net/npm/jquery@3.5.1/dist/jquery.slim.min.js" integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous"></script>
-    <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.6.1/dist/js/bootstrap.bundle.min.js" integrity="sha384-fQybjgWLrvvRgtW6bFlB7jaZrFsaBXjsOMm/tB9LTS58ONXgqbR9W8oWht/amnpF" crossorigin="anonymous"></script>    
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.6.1/dist/js/bootstrap.bundle.min.js" integrity="sha384-fQybjgWLrvvRgtW6bFlB7jaZrFsaBXjsOMm/tB9LTS58ONXgqbR9W8oWht/amnpF" crossorigin="anonymous"></script>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+    <script>
+      $(document).ready(function(){
+      $("a[title|='Hosted on free web hosting 000webhost.com. Host your own website for       FREE.']").css("display", "none");
+      $("img[alt|='www.000webhost.com']").css("display", "none");
+      });
+    </script> 
 </body>
 </html>

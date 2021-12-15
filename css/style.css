@@ -45,7 +45,22 @@
     color: black; }
     div p a:hover {
       background-color: black;
-      color: white; } }
+      color: white; }
+  .gridIndex {
+    display: grid;
+    grid-template-areas: "section";
+    grid-template-columns: auto;
+    grid-template-rows: auto; }
+  section {
+    grid-area: section;
+    background-color: black; }
+  .anchoVideoDsk {
+    width: 49%; }
+  .anchoImg {
+    width: 700px;
+    margin: 1px; }
+  .padVid {
+    padding-right: 5px; } }
 
 @font-face {
   font-family: "graphic-psyco";
@@ -86,4 +101,17 @@
     height: 35px; }
   .boton--restablecer {
     width: 100px;
-    height: 35px; } }
+    height: 35px; }
+  .gridIndex {
+    display: grid;
+    grid-template-areas: "section";
+    grid-template-columns: auto;
+    grid-template-rows: auto; }
+  section {
+    grid-area: section;
+    background-color: black; }
+  .anchoVideoMob {
+    width: 100%; }
+  .anchoImgMob {
+    width: 100%;
+    padding-top: 10px; } }
