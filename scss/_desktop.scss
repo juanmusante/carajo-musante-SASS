@@ -101,19 +101,4 @@ $historia: (
     .padVid {
         padding-right: $padVid;
     }
-    @keyframes efecto {
-        0% {width: 80%;}
-        25% {width: 75%;}
-        50% {width: 95%;}
-        75% {width: 85%;}
-        100% {width: 1440px;}
-    }
-    .escala {
-        width: 1440px;
-        height: 100%;
-        animation-name: efecto;
-        animation-iteration-count: 1;
-        animation-timing-function: ease-in;
-        animation-duration: 2s;
-    }
 }
